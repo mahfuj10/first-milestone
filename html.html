@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
-</head>
-<body>
-    
-
+  </head>
+  <body>
     <section>
-        <div id="btn" >
-            <button >100</button>
-        </div>
-        
-
+      <div id="btn">
+        <button>100</button>
+      </div>
     </section>
 
-<script>
-            const final = document.getElementById('btn').addEventListener('click', function (event) {
-  
-             const n =    number = event.target.innerText;
-            const numberInt = parseInt(n) + 1;
-            document.getElementById('btn').innerText = numberInt;
-})
-
-</script>
-
-</body>
+    <script>
+      const final = document
+        .getElementById("btn")
+        .addEventListener("click", function (event) {
+          const n = (number = event.target.innerText);
+          const numberInt = parseInt(n) + 1;
+          document.getElementById("btn").innerText = numberInt;
+        });
+    </script>
+  </body>
 </html>

@@ -1,5 +1,3 @@
-
-
 // function myFunction(mark){
 // if(mark > 100 || mark < 1){
 //     console.log('not valid');
@@ -28,7 +26,6 @@
 // }
 // myFunction(53)
 
-
 // function factorial(n){
 
 //     if(n == 1){
@@ -38,7 +35,6 @@
 // }
 // const fact = factorial(7);
 // console.log(fact);
-
 
 // function mTokm(m){
 //     let km = m / 1000;
@@ -81,7 +77,6 @@
 // }
 //  myFunction(55)
 
-
 // function myFunction(number){
 // var factor = 1;
 // let i = 1;
@@ -92,7 +87,7 @@
 // return factor;
 // }
 // const factorial = myFunction(7);
-// console.log(factorial); 
+// console.log(factorial);
 
 // function myFunction(n){
 //     if(n == 1){
@@ -176,7 +171,7 @@
     }
     for(let i = 2; i <= num; i++){
         fibo[i] = fibo[i-1] + fibo[i-2];
-    
+
     }
   return fibo;
 }
@@ -198,7 +193,6 @@ return fibo;
 }
 const fibonacci = fibonacciSeries(10);
 console.log(fibonacci) */
-
 
 /* const selected = [];
 for(let i = 0; i < 10; i++){
@@ -265,9 +259,9 @@ console.log(fact); */
 /* function getFactorial(num){
 
     let factorial = 1;
-    let i = 1; 
+    let i = 1;
     while( i<= num ){
-factorial = factorial * i;    
+factorial = factorial * i;
 i++;
 }
 
@@ -295,7 +289,7 @@ console.log(fact) */
     return fibo;
 }
 const fiboNumber = fibonacci(10);
-console.log(fiboNumber); */ 
+console.log(fiboNumber); */
 
 /* function fibonacci(num){
     if(num == 0){
@@ -305,7 +299,7 @@ console.log(fiboNumber); */
         return [0,1]
     }
 const fibo = fibonacci(num - 1);
-fibo[num] = fibo[num-1] + fibo[num-2]; 
+fibo[num] = fibo[num-1] + fibo[num-2];
 
 return fibo;
 }
@@ -341,9 +335,9 @@ console.log(fiboNumber) */
     const tableWood = 15;
     const bedWood = 50;
 
-const chairWoodQuantity = chairQuantity  * chairWood;  
-const tableWoodQuantity = tableQuantity  * tableWood;  
-const WoodQuantity = bedQuantity  * bedWood;  
+const chairWoodQuantity = chairQuantity  * chairWood;
+const tableWoodQuantity = tableQuantity  * tableWood;
+const WoodQuantity = bedQuantity  * bedWood;
 
 const totalQunatity = chairWoodQuantity + tableWoodQuantity + WoodQuantity;
 
@@ -367,7 +361,7 @@ function myFunction(names){
     }
 return array;
 
-    
+
 }
 const ans = myFunction(names);
 console.log(ans) */
@@ -386,7 +380,6 @@ return largest;
 }
 const largNumberOfArray = myFunction([5,7,8,9,4,54,1,36,45,-5]);
 console.log(largNumberOfArray) */
-
 
 /* function getFactorial(num){
     let factorial = 1;
@@ -407,7 +400,7 @@ console.log(fact); */
 
 }
 const factorial = getFactorial(5);
-console.log(factorial); */ 
+console.log(factorial); */
 
 /* function fibonucci(num){
 
@@ -421,7 +414,6 @@ return fibo;
 }
 const fiboNumber = fibonucci(5);
 console.log(fiboNumber); */
-
 
 /* function fibonucci(n){
 
@@ -437,7 +429,7 @@ fibo[n] = fibo[n-1] + fibo[n- 2];
 
 return fibo;
 }
-    
+
     const fiboNumber = fibonucci(50);
     console.log(fiboNumber); */
 
@@ -454,8 +446,7 @@ return unique;
 const arrayNumber = myFunction([14,15,15,14,24,87,94,75,46,24]);
 console.log(arrayNumber); */
 
-
- /*const numbers = [10, 20, 25, 40, 35, 75, 85];
+/*const numbers = [10, 20, 25, 40, 35, 75, 85];
 let sum = 0;
 for (let i = 0; i < numbers.length; i++){
     let elemnt = numbers[i];
@@ -523,7 +514,6 @@ console.log(total) */
 let num2 = 3;
 console.log(num2 > num1) */
 
-
 /* let num1 = 5;
 let num2 = 3;
 let num3 = 14;
@@ -533,7 +523,7 @@ let num5 = 2;
 if(num1 > num2 || num3 < num4){
     console.log('valo')
 } */
-/* 
+/*
 let audiPrice = 50;
 let bmwPrice = 100;
 let mercedesPrice = 80;
@@ -575,7 +565,7 @@ return multipli;
 }
 const number = myFunction(5,5,5);
 console.log(number) */
-/* 
+/*
 let student = {
 name: 'mahfuj',
 roll:15,
@@ -667,7 +657,6 @@ return arr;
 const ar = myFunction(array);
 console.log(ar) */
 
-
 /* function myFunction(number){
 
 if(number == 0){
@@ -679,7 +668,7 @@ if(number == 1){
 
 
 let fibo =myFunction(number - 1);
-fibo[number] = fibo[number-1] + fibo[number-2];  
+fibo[number] = fibo[number-1] + fibo[number-2];
 
 
 return fibo
@@ -693,7 +682,7 @@ return fibo
  for(let i =1; i<=number; i++){
     factorial = factorial * i;
  }
-        
+
 return factorial;
 }
 const ar = myFunction(5);
@@ -704,7 +693,7 @@ console.log(ar);  */
 if(number == 1){
     return 1;
 }
-    
+
 return number * myFunction (number - 1);
 }
 const ar = myFunction(5);
@@ -716,18 +705,17 @@ console.log(ar);  */
     for(let i = number; i >= 1; i--){
        factorial = factorial * i;
     }
-           
+
    return factorial;
    }
    const ar = myFunction(5);
    console.log(ar);   */
 
-
 /* function  perfectFriend(friendsName){
 
-let largestName = 0; 
-    
- for(let i = 0; i < friendsName.length; i++){         
+let largestName = 0;
+
+ for(let i = 0; i < friendsName.length; i++){
  let elemnt = friendsName[i];
  if(elemnt.length == 5){
     largestName = elemnt;
@@ -740,7 +728,7 @@ return largestName;
 const friendsArray = perfectFriend([ ]);
 console.log(friendsArray); */
 
- /* unction deliveryCost(quantity){
+/* unction deliveryCost(quantity){
     //Assigning Essenial Variables
 const costLvl1 = 100 * 100;
 const costLvl2 = costLvl1 + (quantity - 100) * 80;
@@ -852,8 +840,7 @@ if(arr.indexOf(elemnt) == -1){
 return arr;
 }
 const ans = myFunction([10,15,10,10,15,16,19,5,4,17,-15,5,4]);
-console.log(ans); */ 
-
+console.log(ans); */
 
 /* function myFunction(num){
 
@@ -880,7 +867,7 @@ console.log(ans); */
 
 let fibo = [0,1];
 
-for(let i = 2; i <= n; i++){ 
+for(let i = 2; i <= n; i++){
 
 fibo[i] = fibo[i-1] + fibo[i-2];
 }
@@ -906,7 +893,6 @@ return fibo;
     const ans = myFunction(500);
     console.log(ans); */
 
-
 /*     function myFunction(number){
         let factor = 1;
         for(let i = number; i >= 1; i--){
@@ -921,7 +907,7 @@ return fibo;
 
 for(const single of s){
 
-if(single == "a"){ 
+if(single == "a"){
     console.log(single);
 }
 else if(single == "e"){
@@ -949,14 +935,14 @@ function reverseString(string) {
 
 
     reverse =  letter + reverse ;
-  
+
     }
 
     return reverse;
 }
 
 const ans = reverseString(text);
-console.log(ans); 
+console.log(ans);
 console.log(typeof(text)); */
 
 /* const phones = [
@@ -990,7 +976,7 @@ let elemnt = array[i];
 if(elemnt >= 80){
 console.log(elemnt);
 }
-} 
+}
  */
 /* const products = [
     {name:'samsung s5', price: 45000, camera: 24, storage: 32},
@@ -1036,9 +1022,9 @@ if(n==1){
 return myFunction(n-1) + myFunction(n-2);
 
 }
-console.log(myFunction(8)) 
+console.log(myFunction(8))
 */
-/* 
+/*
 const products = [
     {name:'samsung s5', price: 45000, camera: 24, storage: 32},
     {name:'walton', price: 25000, camera: 15, storage: 22},
@@ -1053,7 +1039,7 @@ const products = [
 let match = [];
 
 searchProduct = (items, search) => {
-  
+
 
 for(const product of items){
     let name = product.name;
@@ -1101,8 +1087,6 @@ console.log(fibonacci(5));
 // const numbers = [10, 20, 25, 40, 35, 75, 85];
 // console.log(typeof(numbers));
 
-
-
 /* function deliveryCost(quantity){
 
 const firstCount = 100 * 100;
@@ -1148,7 +1132,7 @@ return match;
 }
 console.log(myFunction(products,'samsung')); */
 
-/* 
+/*
 const array = [10,15,14,16,1,9,7,8,4,40,51,64,78];
 function myFunction(array){
 let largest = array[0];
@@ -1175,7 +1159,7 @@ console.log(myFunction(7)); */
 
 /* let fibo = [0,1];
 for(let i = 2; i < 5; i++){
-    fibo[i] = fibo[i-1] + fibo[i-2]; 
+    fibo[i] = fibo[i-1] + fibo[i-2];
 }
 console.log(fibo) */
 
@@ -1191,11 +1175,11 @@ fibo[n] = fibo[n-1] + fibo[n-2];
 return fibo;
 }
 console.log(myfuntion(5)) */
-/* const product = 5; 
-const price = ‘7’; 
-const subTotal = product * price; 
-const tax = subTotal/10; 
-const total = subTotal + tax; 
+/* const product = 5;
+const price = ‘7’;
+const subTotal = product * price;
+const tax = subTotal/10;
+const total = subTotal + tax;
 console.log(total) */
 
 /* function myfuntion(){
@@ -1203,9 +1187,74 @@ console.log(total) */
 }
 myfuntion() */
 
-const numbers = [10, 20, 25, 40, 35, 75, 85];
+/* const numbers = [10, 20, 25, 40, 35, 75, 85];
 
 for (const elemnt of numbers){
  console.log(elemnt);
 
+} */
+
+/* function factorial(number) {
+  let fact = 1;
+  for (let i = 1; i <= number; i++) {
+    fact = fact * i;
+  }
+  return fact;
 }
+const factor = factorial(4);
+console.log(factor);
+ */
+
+/* function b() {
+  console.log("hi am b");
+}
+b();
+ */
+// const {a} = {a:10};
+// console.log(a);
+/* const bottle = { name:'sr',price:100}
+console.log(bottle) */
+
+// b();
+// function b(){
+//     console.log('hi Iam b');
+// }
+/* const unique = array => array.indexOf("21")
+
+const x = array=[2,3,4,5,2]
+const y = unique(x)
+console.log(y)
+
+const add =(para1 , para2) => para2 + para1;
+const result = add("2",3); */
+// console.log(result)
+
+// let i;
+// console.log(i)
+// i=4
+
+// function multi(num1, num2) {
+//     const number = num1 * num2;
+//     console.log(number)
+//     return number;
+// }
+// const x = multi(2, 3);
+
+// console.log(x + 4)
+const students = {
+    name: "mahfujur rahman",
+    id: 12,
+    class: 'ix',
+    number: [1, 2, 3, 4, 5, 7],
+    mahi: function () {
+        console.log(12);
+    },
+    rahi: class {
+        constructor(num) {
+            console.log(num);
+        }
+    }
+}
+console.log(students.number[2])
+students.mahi();
+const clas = new students.rahi(223)
